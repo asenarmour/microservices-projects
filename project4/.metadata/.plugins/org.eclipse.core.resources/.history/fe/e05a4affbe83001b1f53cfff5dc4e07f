@@ -1,0 +1,5 @@
+package com.techefx.microservices.techefxpropertyaccessservice.controller;
+
+public class PropertyAccessController {
+
+}

@@ -1,0 +1,5 @@
+package com.techefx.microservices.productstockservice.entity;
+
+public interface ProductStockRepository {
+
+}

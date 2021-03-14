@@ -1,0 +1,9 @@
+
+spring.application.name=techefx-spring-cloud-api-gateway-service
+
+server.port=8900
+
+spring.cloud.gateway.routes[0].id=stock-enquiry
+spring.cloud.gateway.routes[0].uri=http://localhost:8700
+spring.cloud.gateway.routes[0].predicates[0].name=localhost
+spring.cloud.gateway.routes[0].predicates[0]=Path=/product-enquiry/**

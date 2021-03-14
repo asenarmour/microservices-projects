@@ -1,0 +1,4 @@
+
+spring.application.name=techefx-spring-cloud-api-gateway-service
+
+server.port=8900

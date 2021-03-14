@@ -1,0 +1,20 @@
+package com.techefx.microservices.techefxpropertyaccessservice.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.techefx.microservices.techefxpropertyaccessservice.beans.PropertyAccessBean;
+import com.techefx.microservices.techefxpropertyaccessservice.beans.PropertyAccessValue;
+
+@RestController
+public class PropertyAccessController {
+
+	@Autowired
+	PropertyAccessBean propertyAccessBean;
+	
+	@GetMapping("/accessPropertyFile")
+	public PropertyAccessValue getPropertyFile() {
+		return new PropertyAccessValue(propertyAccessBean.getName(),propertyAccessBean.getDescription());
+	}
+}

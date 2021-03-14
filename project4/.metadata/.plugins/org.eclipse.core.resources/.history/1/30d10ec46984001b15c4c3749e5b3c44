@@ -1,0 +1,5 @@
+package com.techefx.microservices.techefxspringcloudapigatewayservice.config;
+
+public class SpringCloudConifg {
+
+}

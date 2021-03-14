@@ -1,0 +1,13 @@
+package com.techefx.microservices.productenquiryservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProductEnquiryServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProductEnquiryServiceApplication.class, args);
+	}
+
+}

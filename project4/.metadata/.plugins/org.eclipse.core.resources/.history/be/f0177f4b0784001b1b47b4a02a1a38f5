@@ -1,0 +1,13 @@
+package com.techefx.techefxzuulapigatewayserver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TechefxZuulApiGatewayServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TechefxZuulApiGatewayServerApplication.class, args);
+	}
+
+}

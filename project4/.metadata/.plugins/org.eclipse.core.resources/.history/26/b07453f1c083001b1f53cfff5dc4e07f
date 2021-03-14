@@ -1,0 +1,4 @@
+spring.application.name=techefx-property-access-service
+
+server.port=8100
+spring.profiles.active=dev

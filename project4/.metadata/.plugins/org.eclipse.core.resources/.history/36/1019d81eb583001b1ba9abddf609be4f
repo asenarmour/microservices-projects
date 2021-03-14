@@ -1,0 +1,5 @@
+package com.techefx.microservices.techefxpropertyaccessservice.beans;
+
+public class PropertyAccessBean {
+
+}
