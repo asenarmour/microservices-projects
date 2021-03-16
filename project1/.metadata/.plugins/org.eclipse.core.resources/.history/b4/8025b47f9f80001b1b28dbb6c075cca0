@@ -1,0 +1,8 @@
+
+spring:
+  application:
+    name: techefx-property-access-service
+  cloud
+server:
+  port: 8100
+  
