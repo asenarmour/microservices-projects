@@ -1,5 +1,0 @@
-package com.anurag.microservices.propertyaccessservice.beans;
-
-public class PropertyAccessBean {
-
-}

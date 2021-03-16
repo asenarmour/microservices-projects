@@ -1,5 +1,0 @@
-package com.anurag.microservices.propertyaccessservice.controller;
-
-public class PropertyFileAccessController {
-
-}

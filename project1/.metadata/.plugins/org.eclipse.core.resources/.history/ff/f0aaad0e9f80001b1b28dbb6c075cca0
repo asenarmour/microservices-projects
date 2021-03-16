@@ -1,6 +1,0 @@
-
-spring:
-  application:
-    name: property-access-service
-server:
-  port: 8100

@@ -1,5 +1,0 @@
-
-spring.application.name = techefx-property-access-service
-server.port = 8100
-
-  
